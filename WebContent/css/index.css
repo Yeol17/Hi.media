@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{
+		color: #333;
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		overflow: hidden;
+	}
+	h1,h2,h3{
+		text-indent:-9999px;
+	}
+	#header>h1{
+		height:90px;
+		background-image: url("/homework/img/img01.png");
+		background-repeat: no-repeat;
+		background-position:center;
+	}
+	#navigator{
+		background-color: rgb(200,200,200);
+		width:100%;
+	}
+	#navigator>ul{
+		width:480px;
+		height:40px;
+		margin: 0 auto;
+	}
+	#navigator li{
+		float:left;
+		list-style: none;
+	}
+	#navigator li>a{
+		display:inline-block;
+		width:120px;
+		height:40px;
+		text-decoration: none;
+		text-align: center;
+		line-height: 40px;
+	}
+	#navigator li>a:hover{
+		background-color: rgb(160, 160, 160);
+	}
+	#section{
+		height:674px;
+	}
+	
+	#footer{
+		width:100%;
+		background-color: rgb(100, 100, 100);
+		text-align: center;
+		margin: 0 auto;
+		text-transform: uppercase;
+	}
+	#footer>p{
+		color: rgb(160,160,160);
+		height: 85px;
+		padding-top: 15px;
+		font-weight: bold;
+	}
